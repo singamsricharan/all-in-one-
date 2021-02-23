@@ -11,9 +11,9 @@
 // }
 class Trignometry{
     constructor(){
-        this.oppositeside=
-        this.adjacentside=
-        this.hypotenuse=
+        this.oppositeside=createInput("number");
+        this.adjacentside=createInput('number');
+        this.hypotenuse=createInput("number");
         this.ab=
         this.bc=
         this.ac=
@@ -27,12 +27,12 @@ class Trignometry{
         this.sec=
         this.cosec=
         this.cot=
-        this.sinbutton=
-        this.cosbutton=
-        this.tanbutton=
-        this.secbutton=
-        this.cosecbutton=
-        this.cotbutton=
+        this.sinbutton=createButton();
+        this.cosbutton=createButton();
+        this.tanbutton=createButton();
+        this.secbutton=createButton();
+        this.cosecbutton=createButton();
+        this.cotbutton=createButton();
     }
     display(){
 

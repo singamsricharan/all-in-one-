@@ -1,12 +1,10 @@
-var moleconcept,n,m,Molar,trignometry;
+var moleconcept,n,m,Molar,trignometry,moleconceptbutton,trignometrybutton;
 function setup() {
   createCanvas(displayWidth,displayHeight-112);
-  moleconcept=new moleformula();
-  trignometry=new Trignometry();
 }
 
 function draw() {
-  moleconcept.display();
+
 }
 //   text(criscross method)
 // text(percentage);
