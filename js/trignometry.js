@@ -10,5 +10,31 @@
 //   drawSprites();
 // }
 class Trignometry{
+    constructor(){
+        this.oppositeside=
+        this.adjacentside=
+        this.hypotenuse=
+        this.ab=
+        this.bc=
+        this.ac=
+        this.α=
+        this.input1=
+        this.input2=
+        this.input3=
+        this.sin=
+        this.cos=
+        this.tan=
+        this.sec=
+        this.cosec=
+        this.cot=
+        this.sinbutton=
+        this.cosbutton=
+        this.tanbutton=
+        this.secbutton=
+        this.cosecbutton=
+        this.cotbutton=
+    }
+    display(){
 
+    }
 }
