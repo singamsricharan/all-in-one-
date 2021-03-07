@@ -1,14 +1,4 @@
-// var oppositeside,adjacentside,hypotenuse,ab,bc,ac,α,input1,input2,input3,sin,cos,tan,sec,cosec,cot,sinbutton,cosbutton,tanbutton,secbutton,cosecbutton,cotbutton;
-// function setup() {
-//   createCanvas(400, 400);
-//   text('oppositeside :',50,50);
-//   oppositeside=createInput("oppositesite",'number')
-// }
 
-// function draw() {
-//   background(220);
-//   drawSprites();
-// }
 class Trignometry{
     constructor(){
         this.oppositeside=createInput("number");
@@ -18,15 +8,12 @@ class Trignometry{
         this.bc=
         this.ac=
         this.α=
-        this.input1=
-        this.input2=
-        this.input3=
-        this.sin=
-        this.cos=
-        this.tan=
-        this.sec=
-        this.cosec=
-        this.cot=
+        this.sin= this.oppositeside.val()/this.hypotenuse.val();
+        this.cos=this.adjacentside.val()/this.hypotenuse.val();
+        this.tan=this.oppositeside.val()/this.adjacentside.val();
+        this.sec=this.hypotenuse.val()/this.adjacentside.val();
+        this.cosec=this.hypotenuse.val()/this.oppositeside.val();
+        this.cot=this.adjacentside.val()/this.oppositeside.val();
         this.sinbutton=createButton();
         this.cosbutton=createButton();
         this.tanbutton=createButton();
