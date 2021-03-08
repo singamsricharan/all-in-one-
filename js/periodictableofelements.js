@@ -65,7 +65,7 @@ class Beryllium {
 }
 class Boron {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =5 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -81,7 +81,7 @@ class Boron {
 }
 class Carbon {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =6 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -97,7 +97,7 @@ class Carbon {
 }
 class Nitrogen {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =7 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -113,7 +113,7 @@ class Nitrogen {
 }
 class Oxygen {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =8 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -129,7 +129,7 @@ class Oxygen {
 }
 class Florine {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =9 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -145,7 +145,7 @@ class Florine {
 }
 class Neon {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =10 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -161,7 +161,7 @@ class Neon {
 }
 class Sodium {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =11 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -177,7 +177,7 @@ class Sodium {
 }
 class Magnesium {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =12 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
@@ -193,7 +193,7 @@ class Magnesium {
 }
 class Aluminium {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =13 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
