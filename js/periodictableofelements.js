@@ -17,27 +17,27 @@ class Hydrogen{
 }
 class Helium {
   constructor(){
-        this.atomicnumber =0 ;
+    this.atomicnumber =2 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="He";
     this.valency = 0;
-    this.protons =0 ;
-    this.eletrons =0 ;
-    this.neutrons =0 ;
-    this.electronicConfiguration = "(0)";
+    this.protons =1;
+    this.eletrons =2 ;
+    this.neutrons =1 ;
+    this.electronicConfiguration = "(2)";
     this.elropositivity = 0;
     this.eltronetivity =0 ;
   }
 }
 class Lithium {
   constructor(){
-        this.atomicnumber =0 ;
+    this.atomicnumber =3 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Li";
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -49,11 +49,11 @@ class Lithium {
 }
 class Beryllium {
   constructor(){
-        this.atomicnumber =0 ;
+        this.atomicnumber =4 ;
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Be" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -69,7 +69,7 @@ class Boron {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="B" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -85,7 +85,7 @@ class Carbon {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="C" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -101,7 +101,7 @@ class Nitrogen {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="N" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -117,7 +117,7 @@ class Oxygen {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="O" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -133,7 +133,7 @@ class Florine {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="F" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -149,7 +149,7 @@ class Neon {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ne" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -165,7 +165,7 @@ class Sodium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Na" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -181,7 +181,7 @@ class Magnesium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Mg" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -197,7 +197,7 @@ class Aluminium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Al" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -213,7 +213,7 @@ class Silicon {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Si" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -229,7 +229,7 @@ class Phosphorous {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="P" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -245,7 +245,7 @@ class Sulfur {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="S" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -261,7 +261,7 @@ class Chlorine {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Cl" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -277,7 +277,7 @@ class Argon {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ar" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -293,7 +293,7 @@ class Potassium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="K" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -309,7 +309,7 @@ class Calcium{
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ca" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -325,7 +325,7 @@ class Scandium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Sc" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -341,7 +341,7 @@ class Titanium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ti" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -357,7 +357,7 @@ class Vandium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="V" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -373,7 +373,7 @@ class Chromiun {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Cr" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -389,7 +389,7 @@ class Mangnesee {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Mn" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -405,7 +405,7 @@ class Iron {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Fe" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -421,7 +421,7 @@ class Cobalt {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Co" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -437,7 +437,7 @@ class Nickel {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ni" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -453,7 +453,7 @@ class Copper {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Cu" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -469,7 +469,7 @@ class Zinc {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Zn" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -485,7 +485,7 @@ class Gallium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ga" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -501,7 +501,7 @@ class Germanium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ge" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -517,7 +517,7 @@ class Arsenic {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ar" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -533,7 +533,7 @@ class Selenium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Se" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -549,7 +549,7 @@ class Bromine {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Br" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -565,7 +565,7 @@ class Krypton {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Kr" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -581,7 +581,7 @@ class Rubidium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Rb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -597,7 +597,7 @@ class Strontium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Sr" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -613,7 +613,23 @@ class Yttrium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Y" ;
+    this.valency = 0;
+    this.protons =0 ;
+    this.eletrons =0 ;
+    this.neutrons =0 ;
+    this.electronicConfiguration = "(0)";
+    this.elropositivity = 0;
+    this.eltronetivity =0 ;
+  }
+}
+class Niobium{
+  constructor(){
+    this.atomicnumber =0 ;
+    this.atomicsize =0 ;
+    this.atomicWeight = 0;
+    this.atomicmass =0 ;
+    this.symbol ="Nb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -629,7 +645,7 @@ class Molybdenum {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Mb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -645,7 +661,7 @@ class Technetium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Tc" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -661,7 +677,7 @@ class Ruthenium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ru" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -677,7 +693,7 @@ class Rhodium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Rh" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -693,7 +709,7 @@ class Palladium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Pa" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -709,7 +725,7 @@ class Silver {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ag" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -725,7 +741,7 @@ class Cadmium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Cd" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -741,7 +757,7 @@ class Indium {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="In" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -757,7 +773,7 @@ class Tin {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Sn" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -773,7 +789,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Sb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -788,7 +804,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Te" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -803,7 +819,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="I" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -818,7 +834,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Xe" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -833,7 +849,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Cs" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -848,7 +864,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ba" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -863,7 +879,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="La" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -878,7 +894,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ce" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -893,7 +909,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Pr" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -908,7 +924,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Nd" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -923,7 +939,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Pm" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -938,7 +954,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Sm" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -953,7 +969,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Eu" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -968,7 +984,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Gd" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -983,7 +999,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Tb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -998,7 +1014,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Dy" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1013,7 +1029,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ho" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1028,7 +1044,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Er" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1043,7 +1059,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Tm" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1058,7 +1074,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Yb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1073,7 +1089,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Lu" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1088,7 +1104,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Hf" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1103,7 +1119,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ta" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1118,7 +1134,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="W" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1133,7 +1149,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Re" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1148,7 +1164,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Os" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1163,7 +1179,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ir" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1178,7 +1194,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Pt" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1193,7 +1209,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Au" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1208,7 +1224,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Hg" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1223,7 +1239,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ti" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1238,7 +1254,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Pb" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1253,7 +1269,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Bi" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1268,7 +1284,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Po" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1283,7 +1299,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="At" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1298,7 +1314,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Rn" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1313,7 +1329,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Fr" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1328,7 +1344,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ra" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1343,7 +1359,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Ac" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1358,7 +1374,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="Th" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1373,7 +1389,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1388,7 +1404,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1403,7 +1419,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1418,7 +1434,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1433,7 +1449,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1448,7 +1464,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1463,7 +1479,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1478,7 +1494,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1493,7 +1509,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1508,7 +1524,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1523,7 +1539,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1538,7 +1554,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1553,7 +1569,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1568,7 +1584,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1583,7 +1599,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1598,7 +1614,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1613,7 +1629,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1628,7 +1644,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1643,7 +1659,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1658,7 +1674,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1673,7 +1689,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1688,7 +1704,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1703,7 +1719,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1718,7 +1734,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1733,7 +1749,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1748,7 +1764,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1763,7 +1779,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
@@ -1778,7 +1794,7 @@ class Antimony {
     this.atomicsize =0 ;
     this.atomicWeight = 0;
     this.atomicmass =0 ;
-    this.symbol =0 ;
+    this.symbol ="" ;
     this.valency = 0;
     this.protons =0 ;
     this.eletrons =0 ;
